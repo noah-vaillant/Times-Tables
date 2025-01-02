@@ -84,7 +84,7 @@ l = np.linspace(1, 100, 1000)
 for i in range(len(l)):
     l[i] = round(l[i],1)
 
-with writer.saving(fig, 'pillow_example.gif', 100):
+with writer.saving(fig, 'times_tables.gif', 100):
         
     for t in l:
         plt.axis('off') 
